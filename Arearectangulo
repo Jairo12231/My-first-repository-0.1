@@ -1,0 +1,17 @@
+#Pseudocódigo  para calcular el área de un rectangulo.
+
+Algoritmo AreaRectangulo
+Inicio
+
+Ingresar "Base del rectangulo"
+Leer base del Rectangulo
+Ingresar "Altura del rectangulo"
+Leer Altura del triangulo
+
+area= (base*altura)
+
+Presentar
+Area<- area*altura
+
+Fin
+##########################

@@ -1,0 +1,16 @@
+#Pseudocódigo  para calcular el área de un triángulo.
+
+Algoritmo AreaTriangulo 
+Inicio
+Ingresar "Altura del triangulo"
+Leer Altura del triangulo
+
+Ingresar Base del triangulo
+Leer Base del triangulo
+
+area=(base * altura / 2) 
+
+Presentar "Area del triangulo es"
+
+Fin
+##################################################

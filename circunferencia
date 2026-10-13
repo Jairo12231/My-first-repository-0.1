@@ -1,0 +1,15 @@
+#Pseudocódigo para calcular la longitud y el área de una circunferencia
+
+Algoritmo Circunferencia
+Inicio
+    Definir radio, longitud, area 
+    Definir PI
+            PI <- 3.1416
+
+  Escribir "Ingresa el radio:"
+    Leer radio
+
+  Si radio < 0 Entonces 
+            Escribir "El radio no puede ser negativo."
+
+   

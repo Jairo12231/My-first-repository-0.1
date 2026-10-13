@@ -1,0 +1,16 @@
+#Pseudocodigo en  que dado un número del 1 a 7 escriba el correspondiente nombre del día de la semana.
+
+Algoritmo DiaSemana
+Inicio
+Ingresar número del (1-7)
+Leer numero 
+Según numero hacer 
+Caso 1: Presentar: "Lunes"
+Caso 2: Presentar: "Martes"
+Caso 3: Presentar: "Miercoles"
+Caso 4: Presentar: "Jueves"
+Caso 5: Presentar: "Viernes"
+Caso 6: Presentar: "Sábado"
+Caso 7: Presentar: "Domingo"
+
+Fin

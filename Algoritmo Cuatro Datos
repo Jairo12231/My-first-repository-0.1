@@ -1,0 +1,14 @@
+Algoritmo CuatroDatos
+  Variables
+    a, b, c, d, 
+    Suma, producto, media <-real
+  Inicio
+    Escribir "Ingrese 4 números:"
+    Leer a, b, c, d
+    suma <- a + b + c + d
+    producto <- a * b * c * d
+    media <- suma / 4
+    Escribir "Suma = ", suma
+    Escribir "Producto = ", producto
+    Escribir "Media aritmética = ", media
+  Fin

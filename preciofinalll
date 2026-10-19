@@ -1,0 +1,15 @@
+ALGORITMO PrecioFinal
+
+  INICIO
+    ESCRIBIR "Ingrese el precio original: "
+    LEER precio
+
+    descuento ← precio * 0.20
+    precioDescuento ← precio - descuento
+
+    iva ← precioDescuento * 0.15
+    precioFinal ← precioDescuento + iva
+
+    ESCRIBIR "Precio con descuento: $", precioDescuento
+    ESCRIBIR "Precio final: $", precioFinal
+  FIN

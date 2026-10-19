@@ -1,0 +1,14 @@
+#Algoritmo Clacular Nota final
+Inicio
+//Declaraciones 
+  Defini Nota14, Nota2, Nota3, promedio final como real
+//Cuerpo
+  Ingresar "Ingrese la primera nota de (0A10)"
+    Leer nota 1
+  Ingresar "Ingrese la segunda nota de (0a10):
+    Leer nota2
+  Ingresar "Ingrese la tercera nota de (0a10):"
+    Leer nota3
+  Promedio<- (nota1+nota2+nota3)-/3 
+  Presentar promedio = Promedio<- (nota1+nota2+nota3)/3
+Fin Algoritmo

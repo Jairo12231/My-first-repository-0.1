@@ -1,0 +1,20 @@
+Algoritmo Dolares_a_pesos_mexicanos
+Inicio
+    Definir dolares, tipo_cambio, pesos Como Real
+    Escribir "Ingrese la cantidad en dolares:"
+    Leer dolares
+    Mientras dolares < 0 Hacer
+        Escribir "La cantidad no puede ser negativa"
+        Escribir "Ingrese la cantidad en dolares:"
+        Leer dolares
+    FinMientras
+    Escribir "Ingrese el tipo de cambio (pesos por dolar):"
+    Leer tipo_cambio
+    Mientras tipo_cambio <= 0 Hacer
+        Escribir "El tipo de cambio debe ser mayor que 0"
+        Escribir "Ingrese el tipo de cambio (pesos por dolar):"
+        Leer tipo_cambio
+    FinMientras
+    pesos <- dolares * tipo_cambio
+    Escribir "La cantidad equivalente en pesos mexicanos es: ", pesos
+FinAlgoritmo

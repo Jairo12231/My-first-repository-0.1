@@ -1,0 +1,13 @@
+#Algoritmo Viaje_en_bus_estudiante_utpl()
+  Inicio
+  //Declaraciones
+  viajes_por_dia, dias_semana, costo_pasaje, gasto_semanal
+  Ingrese el númerop de viajes por día
+    Leer número de viajes 
+  Ingrese el valor de pasanje por viaje
+    Leer valor_pasaje
+  Ingrese días que viaja en la semana
+    Leer dias de viaje
+   gasto_semanal ← viajes_por_dia * costo_pasaje * dias_semanA
+  Presentar <-" El gasto semanal en bus es de $, gasto_semanal
+FinAlgoritmo 

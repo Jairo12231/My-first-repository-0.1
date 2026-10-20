@@ -1,0 +1,24 @@
+#Algoritmo Area_perimetro_rectangulo
+  Inicio
+  //Declaraciones
+    Definir largo, ancho, area, perimetro Como Real
+    Escribir "Ingrese el largo del rectangulo en metros:"
+    Leer largo
+    Mientras largo <= 0 Hacer
+    Escribir "El largo debe ser mayor que 0"
+        Escribir "Ingrese el largo del rectangulo en metros:"
+        Leer largo
+    FinMientras
+    Escribir "Ingrese el ancho del rectangulo en metros:"
+    Leer ancho
+    Mientras ancho <= 0 Hacer
+    Escribir "El ancho debe ser mayor que 0"
+        Escribir "Ingrese el ancho del rectangulo en metros:"
+        Leer ancho
+    FinMientras.
+    area <- largo * ancho
+    perimetro <- 2 * (largo + ancho)
+    Escribir "El area del rectangulo es: ", area, " metros cuadrados"
+    Escribir "El perimetro del rectangulo es: ", perimetro, " metros"
+FinAlgoritmo
+

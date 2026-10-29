@@ -1,0 +1,16 @@
+# Algoritmo Dolares_a_pesos_mexicanos
+dolares = float(input("Ingrese la cantidad en dolares: "))
+
+while dolares < 0:
+    print("La cantidad no puede ser negativa")
+    dolares = float(input("Ingrese la cantidad en dolares: "))
+
+tipo_cambio = float(input("Ingrese el tipo de cambio (pesos por dolar): "))
+
+while tipo_cambio <= 0:
+    print("El tipo de cambio debe ser mayor que 0")
+    tipo_cambio = float(input("Ingrese el tipo de cambio (pesos por dolar): "))
+
+pesos = dolares * tipo_cambio
+
+print("La cantidad equivalente en pesos mexicanos es:", pesos)
